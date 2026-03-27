@@ -89,41 +89,19 @@ Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartpho
 
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
-
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
-
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+-   **Introdução**: A empresa fictícia NexStudy é uma plataforma digital voltada para auxiliar estudantes na organização de seus estudos. Criada em 2026 por um grupo de jovens desenvolvedores e estudantes, a empresa tem como objetivo oferecer ferramentas como planejamento de tarefas diárias, inteligência artificial para apoio nos estudos e planilhas personalizadas. Atualmente, a equipe é composta por 5 pessoas, incluindo programadores, um designer e um responsável pelo suporte ao cliente. Mesmo sendo uma empresa digital, seu funcionamento envolve diversas etapas organizacionais para atender os usuários de forma eficiente.
+-   **Situação-problema**: Atualmente, o funcionamento da NexStudy ocorre de maneira parcialmente organizada, porém ainda depende muito de processos manuais e pouco integrados. O ciclo começa quando um usuário acessa a plataforma e cria sua conta. Esse cadastro é armazenado em um sistema simples, mas ainda não possui integração completa com as demais funcionalidades. Após o cadastro, o aluno precisa configurar manualmente sua rotina de estudos, inserindo matérias, horários e tarefas. Como não há uma automatização eficiente, muitos usuários acabam desistindo nessa etapa por acharem o processo cansativo e pouco intuitivo. Além disso, a ausência de sugestões inteligentes dificulta a personalização do planejamento. Outro ponto importante é o uso da inteligência artificial. Atualmente, ela funciona de forma limitada, sendo acessada separadamente das demais ferramentas. Isso faz com que o aluno precise alternar entre diferentes áreas do site, tornando a experiência menos fluida e mais confusa. A comunicação com os usuários também apresenta falhas. O suporte é feito principalmente por e-mail e redes sociais, o que gera demora nas respostas e dificuldade no acompanhamento das solicitações. Não há um sistema centralizado para gerenciar dúvidas, feedbacks ou problemas técnicos. Além disso, o acompanhamento do progresso dos estudantes é pouco eficiente. Embora existam planilhas disponíveis, elas não são automaticamente atualizadas com base nas tarefas concluídas, exigindo que o próprio aluno faça esse controle manualmente. Isso reduz o engajamento e dificulta a análise do desempenho ao longo do tempo. Por fim, a empresa não possui um sistema estruturado de análise de dados dos usuários. Informações importantes, como frequência de uso, dificuldades comuns e taxas de desistência, não são devidamente coletadas ou analisadas, o que limita a melhoria contínua da plataforma.
+-   **Conclusão**: Diante dessa análise, é possível identificar diversos problemas no funcionamento atual do NexStudy, como a falta de integração entre as ferramentas, processos manuais excessivos, baixa personalização e falhas no suporte ao usuário. Um software mais completo e bem estruturado poderia resolver esses problemas ao automatizar o planejamento de estudos, integrar a inteligência artificial às tarefas diárias, criar um sistema de acompanhamento de progresso em tempo real e centralizar o suporte ao cliente. Dessa forma, a plataforma se tornaria mais eficiente, intuitiva e atrativa para os estudantes, aumentando o engajamento e melhorando os resultados de aprendizagem.
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+A proposta do sistema NexStudy é oferecer uma plataforma integrada de organização de estudos, cujo foco principal é auxiliar estudantes a planejarem, acompanharem e otimizarem sua rotina de aprendizagem de forma automatizada e inteligente. O software atuará diretamente nos problemas identificados anteriormente, especialmente na falta de integração entre ferramentas, na dificuldade de organização e na baixa personalização do estudo.
 
-**Alguns pontos importantes a se destacar são:**
+O sistema permitirá que o usuário crie sua conta e, a partir disso, tenha acesso a um ambiente unificado onde poderá organizar suas matérias, definir tarefas diárias e acompanhar seu progresso. Um dos principais diferenciais será a integração da inteligência artificial, que irá sugerir planos de estudo personalizados, ajudar na resolução de dúvidas e adaptar a rotina conforme o desempenho do aluno.
 
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
+Dentro do software, será possível realizar ações como cadastrar e organizar tarefas, receber recomendações automáticas de estudo, acompanhar o progresso em tempo real, interagir com a inteligência artificial para tirar dúvidas e visualizar relatórios de desempenho. Além disso, o sistema buscará centralizar todas as funcionalidades em um único ambiente, evitando a necessidade de múltiplas ferramentas externas.
 
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+Dessa forma, a proposta do NexStudy é transformar o processo de organização dos estudos em algo mais simples, automatizado e eficiente, proporcionando uma experiência mais intuitiva e aumentando o engajamento e o desempenho dos estudantes.
 
 # 4. Modelagem de Dados
 
