@@ -20,72 +20,47 @@ Links do projeto:
 -   Backend: [Repositório](https://github.com/helenasf8/Back-NextStudy)
 -   Frontend: [Repositório](https://github.com/helenasf8/Front-NextStudy)
 
-**Como usar esse modelo para o Projeto Integrador**
-
-*(Essa parte pode ser apagada depois.)*
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instaladas as seguintes extensões:
-   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-   - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-5. Edite o arquivo README.md com as informações do seu projeto.
-
-# 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
-
 **1.1 Modelos de Sistemas**
 
 **Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
 
 **1.1.1 Ponto de Vendas (PDV)**
 
-Um sistema de ponto de vendas é um software que permite a um estabelecimento comercial registrar as vendas realizadas, gerenciar o estoque, emitir notas fiscais, etc. Ele é utilizado principalmente em lojas, supermercados, padarias, restaurantes, etc.
+O sistema de Ponto de Vendas (PDV) é utilizado para registrar transações, controlar entradas e saídas e gerar relatórios financeiros. Adaptando esse modelo para o NexStudy, ele pode ser relacionado ao controle de uso da plataforma, como registro de acessos, utilização de funcionalidades e possíveis planos pagos.
 
-**Exemplos de sistemas de pontos de vendas:**
-- Padaria, supermercado, cafeteria, pizzaria, restaurante, etc.
-- Farmácia, loja de roupas, papelaria, etc.
+**Exemplo: Controle de uso da plataforma NexStudy**
 
+A empresa NexStudy oferece recursos como inteligência artificial, planejamento de tarefas e relatórios de desempenho. Com o crescimento da plataforma, os desenvolvedores perceberam a necessidade de entender melhor o comportamento dos usuários.
 
-**Exemplo: Gerenciamento de vendas para uma padaria**
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
+Assim, surge a ideia de implementar um sistema semelhante a um PDV, onde cada ação do usuário (como criar tarefas, usar a IA ou acessar relatórios) é registrada. Isso permite gerar relatórios sobre uso da plataforma, identificar quais funcionalidades são mais utilizadas e melhorar a experiência do usuário com base nesses dados.
 
 **1.1.2 Empréstimo**
 
-Um sistema de empréstimo é um software que permite a uma instituição, como uma biblioteca, gerenciar o empréstimo de livros, revistas, etc. Ele é utilizado principalmente em bibliotecas, escolas, universidades, etc.
+O sistema de Empréstimo é utilizado para controlar itens que são cedidos temporariamente, como livros ou equipamentos. No NexStudy, esse modelo pode ser adaptado para o gerenciamento de materiais de estudo, como conteúdos, exercícios e recursos disponibilizados aos alunos.
 
-**Exemplos de sistemas de empréstimo:**
-- Biblioteca, coworking, estacionamento, etc.
-- Locadora de veículos, aluguel de equipamentos, etc.
-- Aluguel de imoveis, etc.
-- Aluguel de trajes, fantasias, brinquedos para festas, etc.
+O sistema permitiria controlar quais materiais o aluno está utilizando, por quanto tempo e quais ainda precisam ser concluídos, funcionando como um “empréstimo de conhecimento”.
 
-**Exemplo: Gerenciamento de uma biblioteca**
+**Exemplo: Gerenciamento de materiais de estudo**
 
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
+A plataforma NexStudy disponibiliza diversos materiais de apoio, como listas de exercícios, resumos e conteúdos personalizados. Com o aumento de usuários, tornou-se necessário organizar melhor o acesso a esses materiais.
+
+Assim, o sistema passa a funcionar como um modelo de empréstimo, onde o aluno “retira” um conteúdo para estudo e o sistema acompanha seu progresso até a finalização. Isso permite controlar quais conteúdos estão em andamento, concluídos ou pendentes, além de gerar relatórios sobre o desempenho dos estudantes em cada material.
 
 **1.1.3 Ordem de Serviço (O.S.)**
 
-Um sistema de ordem de serviço é um software que permite a uma empresa, como uma oficina, gerenciar os serviços realizados, os clientes atendidos, etc. Ele é utilizado principalmente em oficinas mecânicas, assistência técnica, etc.
+O sistema escolhido para o desenvolvimento do projeto foi o modelo de Ordem de Serviço (O.S.), adaptado para o contexto educacional. Tradicionalmente, esse tipo de sistema é utilizado para gerenciar serviços, clientes e o andamento de atividades. No caso do NexStudy, essa lógica será aplicada à organização de estudos, onde as “ordens de serviço” representam as tarefas e atividades acadêmicas dos estudantes.
 
-**Exemplos de sistemas de ordem de serviço:**
-- Manutenção de computadores, assistência técnica de celulares, etc.
-- Manutenção de veículos, etc.
-- Manutenção de eletrodomésticos, etc.
+Cada tarefa (como estudar um conteúdo, fazer exercícios ou revisar matéria) funcionará como uma ordem de serviço, contendo informações como prazo, prioridade, disciplina e status (pendente, em andamento ou concluída).
 
+A escolha desse modelo foi feita porque ele atende diretamente ao principal objetivo do sistema: organizar tarefas e acompanhar o progresso do usuário de forma clara e eficiente.
 
-**Exemplo:Manutenção de computadores**
+**Exemplo: Organização das tarefas de estudo**
 
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
+A equipe do NexStudy identificou que muitos estudantes têm dificuldade em manter uma rotina organizada de estudos. Para resolver isso, foi desenvolvido um sistema baseado em ordens de serviço.
+
+Nesse sistema, cada atividade do aluno é registrada como uma tarefa com prazo e prioridade. O estudante pode acompanhar o andamento de suas atividades, enquanto o sistema gera relatórios de desempenho e sugere melhorias com base no progresso.
+
+Isso permite uma gestão mais eficiente do tempo e das atividades, tornando o estudo mais organizado, produtivo e personalizado.
 
 # 2. Situação Problema
 
