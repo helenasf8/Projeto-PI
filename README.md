@@ -9,17 +9,16 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- Arthur de Oliveira Fernandes ([url](https://github.com/ArtthurFernandes))
-- Ana Luiza Köhler ([url](https://github.com/analuizakohler))
-- Eloah da Costa ([url](https://github.com/elocosta))
-- Eloisa de Oliveira Borges ([url](https://github.com/borgesselo))
-- Helena da Silva Fortunato ([url](https://github.com/helenasf8))
+- Arthur de Oliveira Fernandes ([link](https://github.com/ArtthurFernandes))
+- Ana Luiza Köhler ([link](https://github.com/analuizakohler))
+- Eloah da Costa ([link](https://github.com/elocosta))
+- Eloisa de Oliveira Borges ([link](https://github.com/borgesselo))
+- Helena da Silva Fortunato ([link](https://github.com/helenasf8))
 
 Links do projeto:
-(*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/helenasf8/Back-NextStudy)
+-   Frontend: [Repositório](https://github.com/helenasf8/Front-NextStudy)
 
 **Como usar esse modelo para o Projeto Integrador**
 
