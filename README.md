@@ -10,7 +10,7 @@ Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
 - Arthur de Oliveira Fernandes ([link](https://github.com/ArtthurFernandes))
-- Ana Luiza Köhler ([link](https://github.com/analuizakohler))
+- Ana Luiza Köhler ([link](https://github.com/analuizakohler)) 
 - Eloah da Costa ([link](https://github.com/elocosta))
 - Eloisa de Oliveira Borges ([link](https://github.com/borgesselo))
 - Helena da Silva Fortunato ([link](https://github.com/helenasf8))
@@ -20,9 +20,6 @@ Links do projeto:
 -   Backend: [Repositório](https://github.com/helenasf8/Back-NextStudy)
 -   Frontend: [Repositório](https://github.com/helenasf8/Front-NextStudy)
 
-**1.1 Modelos de Sistemas**
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
 
 **1.1.1 Ponto de Vendas (PDV)**
 
@@ -153,40 +150,40 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
 - **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
 
+
 # 5. Requisitos funcionais
-RF01: O sistema deve permitir o cadastro de usuário (dados: nome, e-mail, senha)
-RF02: O sistema deve permitir edição de perfil(dados: nome, foto de perfil, senha)
-RF03: O sistema deve permitir visualizar conteúdos por matéria (dados: nome da matéria, tópicos)
-RF04: O sistema deve disponibilizar exercícios (dados: pergunta, alternativas, resposta correta)
-RF05: O sistema deve exibir resolução detalhada (dados: passo a passo da resolução)
-RF06: O sistema deve permitir definir metas diárias (dados: quantidade de exercícios, tempo de estudo)
-RF07: O sistema deve registrar progresso do usuário (dados: atividades concluídas, data)
-RF08: O sistema deve calcular sequência de estudos (streak)(dados: dias consecutivos de acesso)
-RF09: O sistema deve atribuir pontos ao usuário (dados: pontos por atividade)
-RF10: O sistema deve controlar níveis (dados: nível atual, pontos acumulados)
-RF11: O sistema deve conceder conquistas (dados: nome da conquista, descrição)
-RF12: O sistema deve fornecer feedback imediato (dados: resposta correta/incorreta, explicação)
-RF13: O sistema deve permitir personalizar cronograma (dados: dias, horários, matérias)
-RF14: O sistema deve organizar conteúdos por prioridade (dados: nível de dificuldade, importância , prazo de entrega )
-RF15: O sistema deve permitir criação de tarefas (dados: título, descrição, prazo)
-RF16: O sistema deve permitir organização em Kanban (dados: status da tarefa)
-RF17: O sistema deve permitir anotações (dados: texto, matéria relacionada)
-RF18: O sistema deve gerar planos de estudo com IA (dados: desempenho do usuário, matérias)
-RF19: O sistema deve explicar conteúdos com IA (dados: pergunta do usuário)
-RF20: O sistema deve gerar exercícios personalizados (dados: nível de dificuldade, tema)
-RF21: O sistema deve resolver exercícios passo a passo (dados: questão fornecida pelo usuário)
+- **RF01: - Cadastro:** O sistema deve permitir o cadastro de usuário (dados: nome, e-mail, senha)
+- **RF02: - Perfil:** O sistema deve permitir edição de perfil(dados: nome, foto de perfil, senha)
+- **RF03: - Visualização de conteúdos:** O sistema deve permitir visualizar conteúdos por matéria (dados: nome da matéria, tópicos)
+- **RF04: - Disponibilização de exercícios:** O sistema deve disponibilizar exercícios (dados: pergunta, alternativas, resposta correta)
+- **RF05: - Resolução dos exercícios:** O sistema deve exibir resolução detalhada (dados: passo a passo da resolução)
+- **RF06: - Metas diárias:** O sistema deve permitir definir metas diárias (dados: quantidade de exercícios, tempo de estudo)
+- **RF07: - Registro de progresso:** O sistema deve registrar progresso do usuário (dados: atividades concluídas, data)
+- **RF08: - Streak:** O sistema deve calcular sequência de estudos (streak)(dados: dias consecutivos de acesso)
+- **RF09: - Pontos:** O sistema deve atribuir pontos ao usuário (dados: pontos por atividade)
+- **RF10: - Ranking:** O sistema deve controlar níveis (dados: nível atual, pontos acumulados)
+- **RF11: - Conquistas:** O sistema deve conceder conquistas (dados: nome da conquista, descrição)
+- **RF12: - Feedback:** O sistema deve fornecer feedback imediato (dados: resposta correta/incorreta, explicação)
+- **RF13: - Personalização do cronograma:** O sistema deve permitir personalizar cronograma (dados: dias, horários, matérias)
+- **RF14: - Organização de conteúdos:** O sistema deve organizar conteúdos por prioridade (dados: nível de dificuldade, importância , prazo de entrega)
+- **RF15: - Criar tarefas:** O sistema deve permitir criação de tarefas (dados: título, descrição, prazo)
+- **RF16: - Organização em forma de Kanban:** O sistema deve permitir organização em Kanban (dados: status da tarefa)
+- **RF17: - Anotações:** O sistema deve permitir anotações (dados: texto, matéria relacionada)
+- **RF18: - IA:** O sistema deve gerar planos de estudo com IA (dados: desempenho do usuário, matérias)
+- **RF19: - Explicação com IA:** O sistema deve explicar conteúdos com IA (dados: pergunta do usuário)
+- **RF20: - Exercícios personalizados:** O sistema deve gerar exercícios personalizados (dados: nível de dificuldade, tema)
+- **RF21: - Resolução de exercícios:** O sistema deve resolver exercícios passo a passo (dados: questão fornecida pelo usuário)
 
 # 6. Requisitos não funcionais
 
-RNF01: O sistema deve ter tempo de resposta de até 3 segundos.
-RNF02: O sistema deve garantir segurança dos dados dos usuários.
-RNF03: O sistema deve utilizar criptografia para senhas.
-RNF04: O sistema deve possuir interface intuitiva e de fácil uso.
-RNF05: O sistema deve estar disponível 24/7.
-RNF06: O sistema deve suportar múltiplos usuários simultâneos.
-RNF07: O sistema deve ser escalável.
-RNF08: O sistema deve permitir manutenção e atualização contínua.
-RNF09: O sistema deve ser responsivo.
+- **RNF01: - Tempo de resposta:** O sistema deve ter tempo de resposta de até 3 segundos.
+- **RNF02: - Segurança de dados:** O sistema deve garantir segurança dos dados dos usuários.
+- **RNF03: - Criptografia:** O sistema deve utilizar criptografia para senhas.
+- **RNF04: - Interface intuitiva:** O sistema deve possuir interface intuitiva e de fácil uso.
+- **RNF05: - Disponibilidade do sistema:** O sistema deve estar disponível 24/7.
+- **RNF06: - Suportar usúarios:** O sistema deve suportar múltiplos usuários simultâneos.
+- **RNF07: - Atualização do sistema:** O sistema deve permitir manutenção e atualização contínua.
+- **RNF08: - Responsividade:** O sistema deve ser responsivo.
 
 # 7. Diagrama de Caso de Uso
 
