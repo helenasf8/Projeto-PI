@@ -78,7 +78,7 @@ Dessa forma, a proposta do NexStudy é transformar o processo de organização d
 # 4. Modelagem de Dados
 
 
-<img width="1009" height="1043" alt="tab" src="https://github.com/user-attachments/assets/02db3f74-6b8b-41fd-88d8-fe065b39f6e3" />
+![Minha Imagem](./imgs/table-updated.png)
 
 
 
