@@ -17,8 +17,8 @@ Equipe:
 
 Links do projeto:
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](https://github.com/helenasf8/Back-NextStudy)
--   Frontend: [Repositório](https://github.com/helenasf8/front-tcc)
+-   Backend: [Repositório](https://github.com/helenasf8/Back-NextStudy) [Fabroku](https://nexstudy-backend.class.fabricadesoftware.ifc.edu.br/)
+-   Frontend: [Repositório](https://github.com/helenasf8/front-tcc) [Vercel](https://nex-study-tcc.vercel.app/)
 
 
 **1.1.1 Ponto de Vendas (PDV)**
